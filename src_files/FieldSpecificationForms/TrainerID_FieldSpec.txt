@@ -5,8 +5,8 @@ GENERAL ELEMENTS
 Field Name:           Trainer ID
 
 Specification Type:
-  Unique:  X
-  Generic: _ 
+  Unique:  _
+  Generic: X
   Replica: _ 
 Parent Table:         Trainers
 Label:                Trainer_ID
