@@ -9,7 +9,7 @@ Specification Type:
   Generic: _ 
   Replica: _ 
 Parent Table:         Challenges 
-Label:                Date 
+Label:                Challenge_Date
 Source Specification: _ 
 Shared By:            _ 
 Aliases:              _ 
