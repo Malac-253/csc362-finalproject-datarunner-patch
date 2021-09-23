@@ -1,0 +1,115 @@
+Datarunners' Final Table List
+
+Name: Trainers
+
+Type: Data
+
+Description: The Pokemon Trainers who compete in the Elite Four Challenge. This table is important for keeping track of how many trainers compete in the Challenge and background data associated with them so the League can keep the Challenge balanced. 
+
+
+
+
+
+
+
+Name: Pokemon
+
+Type: Data
+
+Description: The Pokemon partners of the trainers that take part in the Challenge. This table helps the League monitor what trainers use what Pokemon and in what combinations during a Challenge run. 
+
+
+
+
+
+
+
+Name: Hall of Fame Members 
+
+Type: Data
+
+Description: The trainers who were successful in their League Challenge and defeated the Elite Four. This table is important for keeping track of the top-of-the-line trainers that succeeded in their quest, an important facet of League balance. 
+
+
+
+
+
+
+
+Name: Shop Items
+
+Type:Data
+
+Description: All the items currently available in the shop. This is important for maintaining shop sales and stock. 
+
+
+
+
+Name: Challenges
+
+Type: Data
+
+Description: All of the individual League Challenges undertaken by each trainer. This table allows the League to track the progress made by each trainer each time they compete to monitor the balance of the competition. 
+
+
+
+
+Name: Sold Items
+
+Type: Data
+
+Description: The items that have been sold to trainers. This table is important because it allows the League to track what items each trainer has purchased, valuable for monitoring what items the most successful trainers bought. 
+
+
+
+
+
+Datarunners' Tables with Fields
+
+*Note- foreign keys haven’t been included in these
+
+Table Name: Trainers 
+Fields: 
+	-Trainer_ID(PK)
+	-Trainer_Name
+	-Trainer_Hometown
+	-Trainer_Age
+
+Table Name: Pokemon 
+Fields: 
+	-Pokemon_ID(PK)
+	-Pokemon_Name
+	-Pokemon_Level
+	-Pokemon_type
+	
+
+Table Name: Elite Four
+Fields:
+	-Elite_Four_ID(PK)
+	-Elite_Four_Name
+	-Elite_Four_Position
+	-Type_Specialty 
+
+Table Name: Hall of Fame 
+Fields: 
+	-Hall_of_Fame_ID(PK)
+
+Table Name: Items 
+Fields:
+	-Item_ID(PK)
+	-Item_Name
+	-Item_Description
+	-Item_Stock
+	-Item_Cost
+
+Table Name: Challenges
+Fields:
+	-Challenge_ID(PK) 
+	-Challenge_Date
+	-Challenge_Progress_Made
+
+Table Name: Sold Items
+Fields:
+	-Item_Sold_ID (PK)
+
+
