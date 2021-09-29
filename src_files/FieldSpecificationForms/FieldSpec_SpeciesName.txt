@@ -2,70 +2,70 @@ FIELD SPECIFICATIONS
 
 GENERAL ELEMENTS
 
-Field Name:           Challenge Date
+Field Name:           Species Name
 
 Specification Type:
-  Unique:  X 
+  Unique:  X
   Generic: _ 
   Replica: _ 
-Parent Table:         Challenges 
-Label:                Challenge_Date
+Parent Table:         Pokemon Species
+Label:                SpeciesName
 Source Specification: _ 
 Shared By:            _ 
 Aliases:              _ 
-Description:          The date that the challenge was attempted. This allows the League to monitor historical patterns in the challenges. 
+Description:          The unique name for a given species of Pokemon. This allows us to keep a record of every known Pokemon species to provide identifying information on the species of a given Pokemon used by a trainer. 
 
 
 PHYSICAL ELEMENTS
 
-Data Type:            TIMESTAMP 
-Length:               - 
-Decimal Places:       _ 
+Data Type:            Alphanumeric
+Length:               20
+Decimal Places:       None
 Input Mask:           _ 
-Display Format:       _ 
+Display Format:       The first letter should be capitalized. 
 Character Support:
-  Letters (A-Z):      _ 
-  Numbers (0-9):      X 
-  Keyboard (.,/$#%):  X 
+  Letters (A-Z):      X
+  Numbers (0-9):      _ 
+  Keyboard (.,/$#%):  _ 
   Special (©®™Σπ):    _ 
 
 
 LOGICAL ELEMENTS
 
-Key Type:      Non:        X 
-               Primary:    _ 
+Key Type:      Non:        _ 
+               Primary:    X
                Foreign:    _ 
                Alternate:  _ 
 
-Key Structure: Simple:     _ 
+Key Structure: Simple:     X 
                Composite:  _ 
 
-Uniqueness:    Non-unique: X
-               Unique:     _ 
+Uniqueness:    Non-unique: _ 
+               Unique:     X
 
 Null Support:  Nulls OK:   _ 
-               No nulls:   X
+               No nulls:   _ 
 
-Values Entered By: User:   X 
+Values Entered By: User:   X
                    System: _ 
 
-Required Value:    No:     _
+Required Value:    No:     _ 
                    Yes:    X
 
 Default Value:     _ 
 
-Range of Values:   _ 
+Range of Values:   Any valid species of Pokemon recognized within the National Pokedex. 
 
 Edit Rule:
-  Enter now, edits allowed:       _
+  Enter now, edits allowed:       _ 
   Enter now, edits not allowed:   X
-  Enter later, edits allowed:     _
+  Enter later, edits allowed:     _ 
   Enter later, edits not allowed: _ 
   Not determined at this time:    _ 
 
 Comparisons Allowed:
   Same Field:   X
-                ALL  _
+                ALL  _ 
                 =    X
                 >    _ 
                 >=   _ 
@@ -74,7 +74,7 @@ Comparisons Allowed:
                 <=   _ 
 
   Other Fields: _
-                ALL  _
+                ALL  _ 
                 =    _ 
                 >    _ 
                 >=   _ 
@@ -83,7 +83,7 @@ Comparisons Allowed:
                 <=   _ 
 
   Value Expr.:  X
-                ALL  _
+                ALL  _ 
                 =    X
                 >    _ 
                 >=   _ 
@@ -92,7 +92,7 @@ Comparisons Allowed:
                 <=   _ 
 
 Operations Allowed:
-  Same Field:  _
+  Same Field:   _ 
                 ALL  _ 
                 +    _ 
                 -    _ 

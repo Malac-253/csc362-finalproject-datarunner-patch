@@ -2,37 +2,37 @@ FIELD SPECIFICATIONS
 
 GENERAL ELEMENTS
 
-Field Name:           Challenge Date
+Field Name:           is Active
 
 Specification Type:
-  Unique:  X 
+  Unique:  X
   Generic: _ 
   Replica: _ 
-Parent Table:         Challenges 
-Label:                Challenge_Date
+Parent Table:         Trainers 
+Label:                isActive
 Source Specification: _ 
 Shared By:            _ 
 Aliases:              _ 
-Description:          The date that the challenge was attempted. This allows the League to monitor historical patterns in the challenges. 
+Description:          A setting based on whether or not a trainer is still actively training Pokemon for use in League competition. This is important because we don't want to delete historical data, but we also need a method to filter out non-active trainers. 
 
 
 PHYSICAL ELEMENTS
 
-Data Type:            TIMESTAMP 
-Length:               - 
-Decimal Places:       _ 
+Data Type:            Boolean
+Length:               _
+Decimal Places:       _
 Input Mask:           _ 
 Display Format:       _ 
 Character Support:
   Letters (A-Z):      _ 
-  Numbers (0-9):      X 
-  Keyboard (.,/$#%):  X 
+  Numbers (0-9):      _ 
+  Keyboard (.,/$#%):  _ 
   Special (©®™Σπ):    _ 
 
 
 LOGICAL ELEMENTS
 
-Key Type:      Non:        X 
+Key Type:      Non:        X
                Primary:    _ 
                Foreign:    _ 
                Alternate:  _ 
@@ -49,23 +49,23 @@ Null Support:  Nulls OK:   _
 Values Entered By: User:   X 
                    System: _ 
 
-Required Value:    No:     _
+Required Value:    No:     _ 
                    Yes:    X
 
-Default Value:     _ 
+Default Value:     True
 
-Range of Values:   _ 
+Range of Values:   True or False
 
 Edit Rule:
-  Enter now, edits allowed:       _
-  Enter now, edits not allowed:   X
-  Enter later, edits allowed:     _
+  Enter now, edits allowed:       X
+  Enter now, edits not allowed:   _ 
+  Enter later, edits allowed:     _ 
   Enter later, edits not allowed: _ 
   Not determined at this time:    _ 
 
 Comparisons Allowed:
   Same Field:   X
-                ALL  _
+                ALL  _ 
                 =    X
                 >    _ 
                 >=   _ 
@@ -74,7 +74,7 @@ Comparisons Allowed:
                 <=   _ 
 
   Other Fields: _
-                ALL  _
+                ALL  _ 
                 =    _ 
                 >    _ 
                 >=   _ 
@@ -83,7 +83,7 @@ Comparisons Allowed:
                 <=   _ 
 
   Value Expr.:  X
-                ALL  _
+                ALL  _ 
                 =    X
                 >    _ 
                 >=   _ 
@@ -92,7 +92,7 @@ Comparisons Allowed:
                 <=   _ 
 
 Operations Allowed:
-  Same Field:  _
+  Same Field:   _ 
                 ALL  _ 
                 +    _ 
                 -    _ 

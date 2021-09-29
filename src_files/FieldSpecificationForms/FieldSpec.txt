@@ -2,37 +2,37 @@ FIELD SPECIFICATIONS
 
 GENERAL ELEMENTS
 
-Field Name:           Challenge Date
+Field Name:           _ 
 
 Specification Type:
-  Unique:  X 
+  Unique:  _ 
   Generic: _ 
   Replica: _ 
-Parent Table:         Challenges 
-Label:                Challenge_Date
+Parent Table:         _ 
+Label:                _ 
 Source Specification: _ 
 Shared By:            _ 
 Aliases:              _ 
-Description:          The date that the challenge was attempted. This allows the League to monitor historical patterns in the challenges. 
+Description:          _ 
 
 
 PHYSICAL ELEMENTS
 
-Data Type:            TIMESTAMP 
-Length:               - 
+Data Type:            _ 
+Length:               _ 
 Decimal Places:       _ 
 Input Mask:           _ 
 Display Format:       _ 
 Character Support:
   Letters (A-Z):      _ 
-  Numbers (0-9):      X 
-  Keyboard (.,/$#%):  X 
+  Numbers (0-9):      _ 
+  Keyboard (.,/$#%):  _ 
   Special (©®™Σπ):    _ 
 
 
 LOGICAL ELEMENTS
 
-Key Type:      Non:        X 
+Key Type:      Non:        _ 
                Primary:    _ 
                Foreign:    _ 
                Alternate:  _ 
@@ -40,41 +40,32 @@ Key Type:      Non:        X
 Key Structure: Simple:     _ 
                Composite:  _ 
 
-Uniqueness:    Non-unique: X
+Uniqueness:    Non-unique: _ 
                Unique:     _ 
 
 Null Support:  Nulls OK:   _ 
-               No nulls:   X
+               No nulls:   _ 
 
-Values Entered By: User:   X 
+Values Entered By: User:   _ 
                    System: _ 
 
-Required Value:    No:     _
-                   Yes:    X
+Required Value:    No:     _ 
+                   Yes:    _ 
 
 Default Value:     _ 
 
 Range of Values:   _ 
 
 Edit Rule:
-  Enter now, edits allowed:       _
-  Enter now, edits not allowed:   X
-  Enter later, edits allowed:     _
+  Enter now, edits allowed:       _ 
+  Enter now, edits not allowed:   _ 
+  Enter later, edits allowed:     _ 
   Enter later, edits not allowed: _ 
   Not determined at this time:    _ 
 
 Comparisons Allowed:
-  Same Field:   X
-                ALL  _
-                =    X
-                >    _ 
-                >=   _ 
-                !=   _ 
-                <    _ 
-                <=   _ 
-
-  Other Fields: _
-                ALL  _
+  Same Field:   _ 
+                ALL  _ 
                 =    _ 
                 >    _ 
                 >=   _ 
@@ -82,9 +73,18 @@ Comparisons Allowed:
                 <    _ 
                 <=   _ 
 
-  Value Expr.:  X
-                ALL  _
-                =    X
+  Other Fields: _
+                ALL  _ 
+                =    _ 
+                >    _ 
+                >=   _ 
+                !=   _ 
+                <    _ 
+                <=   _ 
+
+  Value Expr.:  _ 
+                ALL  _ 
+                =    _ 
                 >    _ 
                 >=   _ 
                 !=   _ 
@@ -92,7 +92,7 @@ Comparisons Allowed:
                 <=   _ 
 
 Operations Allowed:
-  Same Field:  _
+  Same Field:   _ 
                 ALL  _ 
                 +    _ 
                 -    _ 
